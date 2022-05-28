@@ -1,0 +1,24 @@
+This is a PDS application for a Super market store to maintain the details of products available 
+at the store. It is built on the PDS developed in the previous Database system labs.
+
+This is the menu displayed in the interface,
+
+	0. CREATE PDS
+        1. OPEN PDS
+        2. ADD A PRODUCT TO THE STORE
+        3. UPDATE A PRODUCT INFO IN THE STORE
+        4. REMOVE A PRODUCT FROM THE STORE
+        5. SEARCH A PRODUCT IN THE STORE
+        6. SEARCH A PRODUCT IN THE STORE BY PRODUCT NAME
+        7. CLOSE THE APPLICATION
+
+Before performing any command from 2-6 ensure that the PDS is created and opened using the 
+commands 0 and 1. 
+
+
+Run the following command to compile the programs
+gcc -g IMT2019092_pds.c store.c bst.c store_interface.c 
+
+Then run the a.out file to test the program. 
+
+
